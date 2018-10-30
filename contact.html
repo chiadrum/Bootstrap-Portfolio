@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NavBar</title>
+    <meta name="description" content="Roughly 155 characters">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<header>
+
+</header>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light" id="nav">
+        <!--Can be dark or other styles as well-->
+        <div id="name">
+            <h2>Victor Chiappetta</h2>
+        </div>
+        <div class="collapse navbar-collapse">
+            <!--allows for horizontal alignment-->
+            <ul class="navbar-nav ml-auto pr-5" id="list">
+                <!--ml-auto is for positioning-->
+                <li class="nav-item pr-3">
+                    <a href="index.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a href="portfolio.html" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item pr-3">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid" id="container">
+        <div class="col-md-9 offset-md-1" id="inner">
+            <div class="row" id="content">
+                <div class="col-md-10">
+                    <div id="about">
+                        <h1>Contact</h1>
+                    </div>
+                </div>
+            </div>
+            <form action="action_page.php">
+
+                <div class="contactname">
+                    <label for="fname">Name</label>
+                    <br>
+                    <input type="text" size="98" id="fname" name="firstname" placeholder="Your name..">
+                </div>
+
+                <div class="contactemail">
+                    <label for="lname">Email</label>
+                    <br>
+                    <input type="text" size="98" id="lname" name="lastname" placeholder="Example@gmail.com">
+                </div>
+
+                <div class="contactmessage">
+                    <label for="subject">Message</label>
+                    <br>
+                    <textarea id="subject" name="subject" placeholder="Type your message here" rows="4" cols="97"></textarea>
+                </div>
+
+                <input id="submit" type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+
+</body>
+<footer class="page-footer font-small" id="foot">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">ChiaDev © 2018 Copyright:
+        <a href="vchipats@gmail"> Email me @</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>

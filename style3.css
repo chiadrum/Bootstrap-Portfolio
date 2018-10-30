@@ -1,0 +1,61 @@
+
+#name {
+    background-color: teal;
+    color: white;
+    margin-left: 120px;
+    padding: 20px;
+    border: 0;
+}
+#container {
+    padding: 30px;
+    background-image: url(back2.jpeg);
+}
+#inner {
+    background-color: white;
+}
+#content {
+    background: white;
+    margin: 50px 350px 50px 50px;
+    vertical-align: middle;
+    display: flex;
+}
+#list {
+    color:teal;
+    font-size: 18px;
+}
+#about {
+    border-bottom-style: solid;
+    border-width: 4px;
+    border-color: grey;
+    color: teal;
+    width: 800px;
+    margin-bottom: 20px;
+}
+a:hover {
+    text-shadow: 2px 2px teal;
+}
+#foot {
+    background-color: grey;
+    height: 80px;
+    color: white;
+    border-top-color: teal;
+    border-top-style: solid;
+    border-top-width: 10px;
+}
+#text {
+text-align: center;
+background-color: teal;
+}
+#par1 {
+    padding: 25px;
+    line-height: 35px;
+}
+#submit {
+    background-color: teal;
+    padding: 4px;
+    color: white;
+}
+#img {
+    margin-left: 60px;
+}
+

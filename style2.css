@@ -1,0 +1,30 @@
+nav {
+    color: blue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 120px;
+}
+#name {
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    padding: 35px;
+}
+li a {
+    margin-right: 100px;
+}
+#content {
+    height: 400px;
+    background: burlywood;
+    margin: 50px 350px 50px 50px;
+}
+#about {
+   border-bottom-style: solid;
+    border-bottom: 3px;
+    border-bottom-color: black;
+    color: teal;
+}
+
+
+
